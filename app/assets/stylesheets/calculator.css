@@ -1,0 +1,22 @@
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 40 40px;
+  border-bottom: 1px solid #eee;
+  background-color:#222;
+  border-color:#222;
+}
+body{
+	background-color:#111  ;
+}
+h1,h2{
+	color:white;
+}
+
+.answer{
+	color:white;
+	font-size: 28px;
+	font-weight: 500;
+  	line-height: 1.1;
+  	border: 1px;
+}
+
