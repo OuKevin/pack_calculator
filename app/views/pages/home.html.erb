@@ -9,161 +9,146 @@
 		<div class="page-header">
 			<h1 class="text-center">Hearthstone Pack Efficiency Calculator</h1>
 			<h2 class="text-center">Classic &amp GvG Edition</h2>
-			
 		</div>
+
 		<div class="container">
-<div class="row">
+			<div class="row">
 			
-			<div class ="answer" id="answer">
-		</div>
-	</div>
+			<div class ="answer" id="answer"></div>
+			</div>
 
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-3">
-				<h2>Classic Pack<h2>
-					
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-3">
+					<h2>Classic Pack<h2>		
+				</div>
+				<div class="col-md-3"></div>
+				<div class="col-md-4">
+					<h2>GvG Pack<h2>
+				</div>
 			</div>
-			
 
-			<div class="col-md-3">
-				
-			</div>
-			<div class="col-md-4">
-				<h2>GvG Pack<h2>
-					
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-2">
-				
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-2">
 					<img src="ClassicPack.png">
-			</div>
-			<div class="col-md-4">
-				
-			</div>
-			<div class="col-md-4">
-				
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
 					<img src="GvGPack.jpg" width="75px" height="100px">
+				</div>
 			</div>
-		</div>
 	
 			<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-1">
-			  <img src="common.png">
-			</div>
-			<div class="col-md-1">
-			  <label for="classic_common">Number of Commons:</label>
-			</div>
-			<div class="col-md-1">
-			  <input type="Number" class="form-control" id="classic_common" min="0" max="188" value="0"></input>
+				<div class="col-md-1"></div>
+				<div class="col-md-1">
+				  <img src="common.png">
+				</div>
+				<div class="col-md-1">
+				  <label for="classic_common">Number of Commons:</label>
+				</div>
+
+				<div class="col-md-1">
+				  <input type="Number" class="form-control" id="classic_common" min="0" max="188" value="0"></input>
+				</div>
+				<div class="col-md-3"></div>
+				<div class="col-md-1">
+				  <img src="common.png">
+				</div>
+				<div class="col-md-1">
+				  <label for="gvg_common">Number of Commons:</label>
+				</div>
+				<div class="col-md-1">
+				  <input type="Number" class="form-control" id="gvg_common" min="0" max="80" value="0"></input>
+				</div>
 			</div>
 
-			<div class="col-md-3">
-				
-			</div>
-			<div class="col-md-1">
-			  <img src="common.png">
-			</div>
-			<div class="col-md-1">
-			  <label for="gvg_common">Number of Commons:</label>
-			</div>
-			<div class="col-md-1">
-			  <input type="Number" class="form-control" id="gvg_common" min="0" max="80" value="0"></input>
-			</div>
-		</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-1">
+				  <img src="rare.png">
+				</div>
+				<div class="col-md-1">
+				  <label for="classic_rare">Number of Rares:</label>
+				</div>
+				<div class="col-md-1">
+				  <input type="Number" class="form-control" id="classic_rare" min="0" max="162" value="0"></input>
+				</div>
 
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-1">
-			  <img src="rare.png">
-			</div>
-			<div class="col-md-1">
-			  <label for="classic_rare">Number of Rares:</label>
-			</div>
-			<div class="col-md-1">
-			  <input type="Number" class="form-control" id="classic_rare" min="0" max="162" value="0"></input>
+				<div class="col-md-3"></div>
+				<div class="col-md-1">
+				  <img src="rare.png">
+				</div>
+				<div class="col-md-1">
+				  <label for="gvg_rare">Number of Rares:</label>
+				</div>
+				<div class="col-md-1">
+				  <input type="Number" class="form-control" id="gvg_rare" min="0" max="74" value="0"></input>
+				</div>
 			</div>
 
-			<div class="col-md-3"></div>
-			<div class="col-md-1">
-			  <img src="rare.png">
-			</div>
-			<div class="col-md-1">
-			  <label for="gvg_rare">Number of Rares:</label>
-			</div>
-			<div class="col-md-1">
-			  <input type="Number" class="form-control" id="gvg_rare" min="0" max="74" value="0"></input>
-			</div>
-		</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-1">
+				  <img src="epic.png">
+				</div>
+				<div class="col-md-1">
+				  <label for="classic_epic">Number of Epics:</label>
+				</div>
+				<div class="col-md-1">
+				  <input type="Number" class="form-control" id="classic_epic" min="0" max="74" value="0"></input>
+				</div>
 
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-1">
-			  <img src="epic.png">
-			</div>
-			<div class="col-md-1">
-			  <label for="classic_epic">Number of Epics:</label>
-			</div>
-			<div class="col-md-1">
-			  <input type="Number" class="form-control" id="classic_epic" min="0" max="74" value="0"></input>
-			</div>
-
-			<div class="col-md-3"></div>
-			<div class="col-md-1">
-			  <img src="epic.png">
-			</div>
-			<div class="col-md-1">
-			  <label for="gvg_epic">Number of Epics:</label>
-			</div>
-			<div class="col-md-1">
-			  <input type="Number" class="form-control" id="gvg_epic" min="0" max="52" value="0"></input>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-1">
-			  <img src="legendary.png">
-			</div>
-			<div class="col-md-1">
-			  <label for="classic_legendary">Number of Legendaries:</label>
-			</div>
-			<div class="col-md-1">
-			  <input type="Number" class="form-control" id="classic_legendary" min="0" max="33" value="0"></input>
+				<div class="col-md-3"></div>
+				<div class="col-md-1">
+				  <img src="epic.png">
+				</div>
+				<div class="col-md-1">
+				  <label for="gvg_epic">Number of Epics:</label>
+				</div>
+				<div class="col-md-1">
+				  <input type="Number" class="form-control" id="gvg_epic" min="0" max="52" value="0"></input>
+				</div>
 			</div>
 
-			<div class="col-md-3"></div>
-			<div class="col-md-1">
-			  <img src="legendary.png">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-1">
+				  <img src="legendary.png">
+				</div>
+				<div class="col-md-1">
+				  <label for="classic_legendary">Number of Legendaries:</label>
+				</div>
+				<div class="col-md-1">
+				  <input type="Number" class="form-control" id="classic_legendary" min="0" max="33" value="0"></input>
+				</div>
+
+				<div class="col-md-3"></div>
+				<div class="col-md-1">
+				  <img src="legendary.png">
+				</div>
+				<div class="col-md-1">
+				  <label for="gvg_legendary">Number of Legendaries:</label>
+				</div>
+				<div class="col-md-1">
+				  <input type="Number" class="form-control" id="gvg_legendary" min="0" max="20" value="0"></input>
+				</div>
 			</div>
-			<div class="col-md-1">
-			  <label for="gvg_legendary">Number of Legendaries:</label>
-			</div>
-			<div class="col-md-1">
-			  <input type="Number" class="form-control" id="gvg_legendary" min="0" max="20" value="0"></input>
-			</div>
-		</div>
 			
-		<div class="row">
-			<div class ="col-md-5"></div>
-			<div>
-				<button id="submit" >Submit</button>
+			<div class="row">
+				<div class ="col-md-5"></div>
+				<div>
+					<button id="submit" >Submit</button>
+				</div>
 			</div>
-		</div>
 	
-
-	<div class="row">
-			<div class ="col-md-5"></div>
-			<div>
-				
+			<div class="row">
+					<div class ="col-md-5"></div>
+					<div>
+						
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-
-		
 		</div>
 	</body>
 	<script src="PackCalculator.js" type="text/javascript"></script>
